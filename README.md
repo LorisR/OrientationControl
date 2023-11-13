@@ -6,3 +6,6 @@ This project proposes a force-based task-orientation controller to online deal w
 
 # GP-based orientation control (low frequency)
 
+
+# Paper
+Loris Roveda, Marco Pavone. Gradient Descent-Based Task-Orientation Robot Controller Enhanced with Gaussian Process Predictions.
