@@ -2,10 +2,10 @@
 This project proposes a force-based task-orientation controller to online deal with uncertain interaction tasks. A gradient descent-based orientation controller is proposed, enhancing its performance with orientation predictions provided by a Gaussian Process modeling.
 
 # Gradient descent orientation control (high frequency)
-
+orientation_ctrl.cpp can be used for the low-level Cartesian impedance control with gradient descent-based orientation adaptation. It should be included within the franka_example_controllers.
 
 # GP-based orientation control (low frequency)
-
+bo_orientation_ctrl is the ROS package for the GP-based low-frequency update of the orientation setpoint of the impedance control. It subscribes to topics published by orientation_ctrl and it publishes topics subscribed by orientation_ctrl.
 
 # Paper
 Loris Roveda, Marco Pavone. Gradient Descent-Based Task-Orientation Robot Controller Enhanced with Gaussian Process Predictions.
