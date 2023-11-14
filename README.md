@@ -6,6 +6,7 @@ orientation_ctrl.cpp can be used for the low-level Cartesian impedance control w
 
 # GP-based orientation control (low frequency)
 bo_orientation_ctrl is the ROS package for the GP-based low-frequency update of the orientation setpoint of the impedance control. It subscribes to topics published by orientation_ctrl and it publishes topics subscribed by orientation_ctrl.
+The package makes use of the limbo c++ library for GP implementation (http://resibots.eu/limbo/).
 
 # Paper
 Loris Roveda, Marco Pavone. Gradient Descent-Based Task-Orientation Robot Controller Enhanced with Gaussian Process Predictions.
