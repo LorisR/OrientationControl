@@ -9,3 +9,6 @@ bo_orientation_ctrl is the ROS package for the GP-based low-frequency update of 
 
 # Paper
 Loris Roveda, Marco Pavone. Gradient Descent-Based Task-Orientation Robot Controller Enhanced with Gaussian Process Predictions.
+
+# Video
+A video describing the methodology and the achieved results (including experiments) can be found here: https://youtu.be/5BmknNo0uXg?feature=shared
